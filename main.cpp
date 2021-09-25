@@ -13,6 +13,7 @@ int main () {
     cout << n << endl;*/
 
     BST<int> tree;
+    tree.insert(102);
     srand(0);
 
     for ( int i=0; i<20 ; i++){
